@@ -470,6 +470,27 @@ body {
     text-align: center;
 }
 
+#animacion{
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    background-color: #7fffd4;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    animation-name: animar;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+   
+}
+
+@keyframes animar{
+    0%{
+        transform: scale(0.3);
+    }
+}
+
 form {
     width: 300px;
     padding: 16px;
