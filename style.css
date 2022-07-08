@@ -481,7 +481,6 @@ body {
     animation-name: animar;
     animation-duration: 1.5s;
     animation-timing-function: ease-out;
-    animation-delay: 0;
     animation-iteration-count: infinite;
    
 }
