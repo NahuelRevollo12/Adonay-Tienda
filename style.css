@@ -23,10 +23,7 @@ h1 {
     font-size: 35px;
 }
 
-.logo {
-    width: 300px;
-    height: 300px;
-}
+
 
 .textoDos {
     text-align: center;
@@ -43,18 +40,9 @@ h1 {
     font-size: 16px;
 }
 
-/** imagen principal **/
-/**.contenedor-imagen{
-    background-image: url(./Imagenes/Logo.png);
-    height: 300px;
-    width: 80%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
 
 
-}**/
-/** negacion **/
+/** navegacion **/
 
 .toggle-menu {
     width: 40px;
@@ -215,7 +203,6 @@ body {
 
 
 
-
 .textil__img {
     margin: 50px;
     display: flex;
@@ -250,7 +237,6 @@ body {
 .item5 {
     grid-column: 1/4;
 }
-
 
 
 
@@ -291,29 +277,6 @@ body {
 }
 
 
-
-.encabezado__lista__item .enlace {
-    color: #e1e1e1;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.encabezado__lista__item {
-    margin: 16px;
-    border-top: solid 2px #fff;
-    border-radius: 2px;
-    background-color: #FFFFFF;
-    text-decoration: none;
-    border: solid #fff;
-
-
-
-}
-
-
-.enlace:active {
-    color: aqua;
-}
 
 
 .contactaNosotros {
@@ -394,31 +357,6 @@ body {
 
 }
 
-.articulos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: center;
-
-}
-
-.articulos__card {
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.articulos__card img {
-    border: solid #7fffd4;
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    object-position: top;
-
-}
-
-
 
 .articulo__card__texto {
     text-align: center;
@@ -445,14 +383,7 @@ body {
 
 }
 
-.encabezado__lista__submenu {
-    color: #e1e1e1;
-    background-color: #ffff;
-    list-style: none;
-    position: absolute;
-    top: 100%;
-    display: none;
-}
+
 
 /*HOVERS*/
 
@@ -625,6 +556,26 @@ textarea {
     border: 5px solid #f6f6f6;
   }
   .catalogoh2{
+    text-align: center;
+    font-weight: 600;
+}
+
+#accesorios .col-lg-4 {
+    margin: 0 !important;
+    padding: 25px;
+}
+
+#accesorios img {
+    width: 100%;
+    height: 350px;
+
+}
+
+#accesorios img:hover {
+    border: 5px solid #f6f6f6;
+}
+
+.accesoriosh2 {
     text-align: center;
     font-weight: 600;
 }
