@@ -22,7 +22,8 @@
         <a class="navbar-brand" href="../index.html">
           <img src="../Imagenes/Logo.png" alt="Logo" class="d-inline-block align-text-center">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -52,34 +53,54 @@
   <main class="cuerpo">
     <h2 id="animacion">ADONAY</h2>
     <h3 class="contacto2">Contacta con Nosotros:</h3>
-    <form action="#" target="" method="get" name="formDatosPersonales">
+    <div class="container">
 
-      <label for="nombre">Nombre</label>
-      <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" />
+      <form class="row g-3 mt-3" name="formDatosPersonales">
+        <div class="col-6">
+          <label for="emailInput" class="form-label">Email</label>
+          <input type="email" class="form-control" id="emailInput" placeholder="Escribe tu email">
+        </div>
 
-      <label for="apellidos">Apellidos</label>
-      <input type="text" name="apellidos" id="apellidos" placeholder="1r Apellido" />
+        <div class="col-6">
+          <label for="inputPass" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="inputPass" placeholder="Escribe tu Password">
+        </div>
 
-      <label for="email" />Email</label>
-      <input type="email" name="email" id="email" placeholder="email" required />
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Dirección</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Escribe tu Dirección">
+        </div>
 
-      <label for="asunto">Asunto</label>
-      <input type="text" name="asunto" id="asunto" placeholder="titular de la consulta" />
+        <div class="col-6">
+          <label for="cityInput" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" id="cityInput" placeholder="Ciudad">
+        </div>
 
-      <label for="mensaje">Mensaje</label>
-      <textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres"
-        maxlength="300"></textarea>
+        <div class="col-3">
+          <label for="postalCodeInput" class="form-label">Codigo Postal</label>
+          <input type="text" class="form-control" id="postalCodeInput" placeholder="Codigo Postal">
+        </div>
 
-      <input type="submit" name="enviar" value="enviar datos" />
-    </form>
+        <div class="col-3">
+          <label for="countryInput" class="form-label">País</label>
+          <input type="text" class="form-control" id="countryInput" placeholder="País">
+        </div>
 
+        <div class="col-12">
+          <div class="form-check">
+          <input type="checkbox" id="checkTerms" class="form-check-input">
+          <label for="ckeckTerms" class="form-check-label">Acepto los Terminos</label>
+          </div>
+        </div>
 
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">
+            Regístrate
+          </button>
+        </div>
 
-
-
-
-
-
+      </form>
+    </div>
 
 
   </main>
