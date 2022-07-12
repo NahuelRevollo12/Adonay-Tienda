@@ -22,7 +22,8 @@
         <a class="navbar-brand" href="#">
           <img src="./Imagenes/Logo.png" alt="Logo" class="d-inline-block align-text-center">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -47,7 +48,7 @@
         </div>
       </div>
     </nav>
- 
+
   </header>
   <main class="cuerpo">
     <section class="sectionTextos">
@@ -65,25 +66,57 @@
         molestias, iusto minima itaque obcaecati beatae soluta. Fuga?
       </p>
     </section>
-    <section class="fotoTienda">
-      <div class="tienda__img item1"><img src="./Imagenes/Foto de la tienda.jpeg" alt="Foto de la Tienda"></div>
-      <div class="tienda__img item2"><img src="./Imagenes/imagen-local2.jpg" alt="Foto de la tienda2"></div>
-      <div class="tienda__img item3"><img src="./Imagenes/imagen-local3.jpg" alt="Foto de la tienda3"></div>
-      <div class="tienda__img item4"><img src="./Imagenes/imagen-local4.jpg" alt="Foto de la Tienda4"></div>
-    </section>
-    <section class="section2">
-      <div class="boton">
-        <a href="./paginas/quienes-somos.html">Conocenos</a>
+    <section>
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner w-60">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="../tdah/Imagenes/Foto de la tienda.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="../tdah/Imagenes/imagen-local2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../tdah/Imagenes/imagen-local3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </section>
-    <section class="mapa">
-      <div>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d263.9670163318605!2d-60.68810249225527!3d-32.9669534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ac8fe9c5664f%3A0x6e31bb9fb1c6562a!2sGaray%204239%2C%20Rosario%2C%20Santa%20Fe!5e1!3m2!1ses!2sar!4v1654801313041!5m2!1ses!2sar"
-          width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-    </section>
+    <div class="boton">
+
+      <section class="section2">
+        <button class="btn btn-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+          aria-controls="offcanvasScrolling">Ubicacion</button>
+
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+          id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Nos podes ubicar en:</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <p>Bv.Avellaneda & Ancon a la Altura de 4239.</p>
+            <div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d263.9670163318605!2d-60.68810249225527!3d-32.9669534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ac8fe9c5664f%3A0x6e31bb9fb1c6562a!2sGaray%204239%2C%20Rosario%2C%20Santa%20Fe!5e1!3m2!1ses!2sar!4v1654801313041!5m2!1ses!2sar"
+                style="border:0;" width="400" height="550" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+      </section>
+    </div>
+
+    
+
     <section>
       <div class="lunesViernes">
         <p>Compra A traves de Nosotros por Whatsapp</p>

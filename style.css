@@ -27,16 +27,16 @@ h1 {
 
 .textoDos {
     text-align: center;
-    color: blue;
-    line-height: 2.1;
+    color: black;
+    line-height: 2rem;
     font-size: 16px;
 
 }
 
 .textoComun {
-    color: coral;
+    color: black;
     text-align: center;
-    line-height: 2.1;
+    line-height: 2rem;
     font-size: 16px;
 }
 
@@ -122,11 +122,9 @@ h1 {
 }
 
 .precio {
-    position: sticky;
-    background-color: #4B4B4B;
+
     font-family: 'Anybody', cursive;
     text-align: center;
-    margin-top: 16px auto;
 }
 
 .pie {
@@ -153,90 +151,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.fotoTienda {
 
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-
-
-    justify-content: center;
-    justify-items: center;
-
-
-
-}
-
-.fotoTienda img {
-    border: solid 1px #7fffd4;
-    height: 250px;
-    width: 300px;
-    object-fit: cover;
-    object-position: right;
-
-
-}
-
-.item1 {
-
-
-    height: 250px;
-    width: 300px;
-}
-
-.item2 {
-
-    height: 250px;
-    width: 300px
-}
-
-.item3 {
-    height: 250px;
-    width: 300px
-}
-
-.item4 {
-
-    height: 250px;
-    width: 300px
-}
-
-
-
-.textil__img {
-    margin: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-
-}
-
-.industry__item {
-    border: solid 1px #7fffd4;
-    border-radius: 3px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.industry {
-    display: grid;
-    grid-template-columns: repeat(2, 300px);
-    gap: 20px 20px;
-    padding: 20px;
-
-
-    justify-content: center;
-    align-content: center;
-
-}
-
-.item5 {
-    grid-column: 1/4;
-}
 
 
 
@@ -248,9 +163,10 @@ body {
 
 
 .boton {
-    width: fit-content;
-    background-color: #00ffff;
-    border: solid 2px #ff000d;
+    justify-content: center;
+    align-items: center;
+    background-color: #7fffd4;
+    border: solid 2px #7fffd4;
     border-radius: 6px;
     margin: 20px;
     text-decoration: none;
@@ -348,9 +264,6 @@ body {
     text-align: center;
 }
 
-.mapa {
-    text-align: center;
-}
 
 .lunesViernes {
     text-align: center;
@@ -483,20 +396,13 @@ textarea {
         display: flex;
         flex-direction: column;
     }
-    .industry{
-        grid-template-columns: repeat(1, 100px);
-    }
-
+    
     .industry img {
         height: 100px;
         width: 100px;
         
     }
-    .foto__textil img{
-        height: 250px;
-        width: 250px;
-
-    }
+   
 
 }
 
@@ -543,4 +449,8 @@ textarea {
 .accesoriosh2 {
     text-align: center;
     font-weight: 600;
+}
+.card img{
+    width: 100%;
+    height: 450px;
 }
