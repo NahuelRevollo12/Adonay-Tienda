@@ -129,7 +129,7 @@ h1 {
 
 .pie {
     background-color: #4B4B4B;
-    margin-top: auto;
+    margin-top: 2rem;
 
 }
 
@@ -137,11 +137,14 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #7fffd4;
+    /*background-color: #7fffd4;*/
+    background: rgb(75,75,75);
+    background: linear-gradient(0deg, rgba(75,75,75,1) 16%, rgba(127,255,212,1) 53%, rgba(127,255,212,1) 91%);
 }
 
 .pie h4 {
     text-align: center;
+    color: #000000;
 
 
 }
@@ -232,6 +235,7 @@ body {
     text-align: center;
     list-style: none;
     font-size: 20px;
+    color: #000000;
 
 }
 
