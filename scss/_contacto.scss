@@ -1,0 +1,30 @@
+.contacto2 {
+    text-align: center;
+}
+
+.contacto3 {
+    text-align: center;
+    font-size: 20px;
+
+}
+
+#animacion {
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    background-color: #7fffd4;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    animation-name: animar;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes animar {
+    0% {
+        transform: scale(0.3);
+    }
+}
