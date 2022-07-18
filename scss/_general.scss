@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: rgb(75, 75, 75);
+    background: linear-gradient(0deg, rgba(75, 75, 75, 1) 16%, rgba(127, 255, 212, 1) 53%, rgba(127, 255, 212, 1) 91%);
+}
+
+html {
+    font-size: 16px;
+
+}
+
+form {
+    background-color: #ccc;
+}
+
+.cuerpo {
+    
+    font-family: 'Anybody', cursive;
+}
+
+header {
+    .navbar-brand img {
+        width: 60px;
+        height: 60px;
+    }
+    
+}
+
+.whatsapp {
+    width: 80px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}

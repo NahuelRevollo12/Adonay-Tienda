@@ -34,7 +34,7 @@ body {
 /** header **/
 
 .cuerpo {
-    background-color: #7fffd4;
+    
     font-family: 'Anybody', cursive;
 }
 
@@ -121,8 +121,6 @@ form {
 .boton {
     justify-content: center;
     align-items: center;
-    background-color: #7fffd4;
-    border: solid 2px #7fffd4;
     border-radius: 6px;
     margin: 20px;
     text-decoration: none;

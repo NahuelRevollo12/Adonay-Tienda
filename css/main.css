@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #4b4b4b;
+  background: linear-gradient(0deg, #4b4b4b 16%, aquamarine 53%, aquamarine 91%); }
+
+html {
+  font-size: 16px; }
+
+form {
+  background-color: #ccc; }
+
+.cuerpo {
+  font-family: 'Anybody', cursive; }
+
+header .navbar-brand img {
+  width: 60px;
+  height: 60px; }
+
+.whatsapp {
+  width: 80px;
+  position: fixed;
+  right: 15px;
+  bottom: 15px; }
+
+.h2 {
+  background-color: #808080;
+  text-align: center;
+  color: black; }
+
+.textoDos {
+  text-align: center;
+  color: black;
+  line-height: 2rem;
+  font-size: 1.1rem; }
+
+.textoComun {
+  color: red;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 1.1rem; }
+
+.resaltado {
+  color: #0e495c;
+  font-weight: 600; }
+
+/** Boton de Mapa **/
+.boton {
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  margin: 20px;
+  text-decoration: none; }
+
+.section2 {
+  display: flex;
+  justify-content: center; }
+
+.lunesViernes {
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif; }
+
+/** Footer **/
+.pie {
+  margin-top: 2rem; }
