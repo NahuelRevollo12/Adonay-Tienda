@@ -1,10 +1,51 @@
-$color-body: #7fffd4;
+$colores-textos: (
+    color-text-articulo: #0e495c,
+    color-text-catalogo: #0e495c
+);
+
+$colores-cuerpo: (
+    color-body: #7fffd4,
+    color-fondo-titulo: #808080,
+    color-titulos: #350907,
+    color-texto: black,
+
+);
+
 $color-formulario: #ccc;
-$color-fondo-titulo: #808080;
-$color-texto: black;
-$color-resaltado: #0e495c;
-$color-text-articulo: #0e495c;
-$color-text-catalogo: #0e495c;
-$color-titulos: #350907;
+
 $color-footer: #4B4B4B;
 
+$tipografias: (
+    tipografia-principal: 'Anybody' 'cursive',
+    tipografia-secundaria: 'Lemonada' 'cursive'
+);
+
+
+$gradiante-body: linear-gradient(0deg, rgba(75, 75, 75, 1) 16%, rgba(127, 255, 212, 1) 53%, rgba(127, 255, 212, 1) 91%);
+
+
+$dimensiones-textos: 16px;
+
+/* extends */
+
+%h2{
+    background-color: #808080;
+    text-align: center;
+}
+.Novedades{
+    @extend %h2;
+    color: red;
+}
+.Mejores{
+    @extend %h2;
+    color: black;
+}
+
+
+@mixin textos ($textColor, $textAlign){
+    text-align: center;
+    color: $textColor;
+    line-height: 2rem;
+    font-size: 16px;
+    
+}

@@ -1,22 +1,18 @@
-.h2 {
+h1 {
     background-color: #808080;
     text-align: center;
     color: black;
 }
 
 .textoDos {
-    text-align: center;
-    color: black;
-    line-height: 2rem;
-    font-size: 1.1rem;
+    @include textos (black, center);
+  
 
 }
 
 .textoComun {
-    color: red;
-    text-align: center;
-    line-height: 2rem;
-    font-size: 1.1rem;
+    @include textos (red, center);
+   
 }
 
 .resaltado {

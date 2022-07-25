@@ -1,9 +1,5 @@
 /** catalogo **/
-.h2 {
-    background-color: #808080;
-    text-align: center;
-    color: black;
-}
+
 #catalogo .col-lg-4 {
     margin: 0 !important;
     padding: 25px;
@@ -25,8 +21,8 @@
 }
 .articulo__card__texto {
     text-align: center;
-    font-family: 'Anybody', cursive;
+    font-family: map-get($tipografias, tipografia-principal);
     font-style: italic;
-    color: #0e495c;
+    color: map-get($colores-textos, color-text-catalogo);
     font-size: 18px;
 }
