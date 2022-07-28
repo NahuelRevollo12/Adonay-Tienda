@@ -43,7 +43,7 @@ $dimensiones-textos: 16px;
 
 
 @mixin textos ($textColor, $textAlign){
-    text-align: center;
+    text-align: $textAlign;
     color: $textColor;
     line-height: 2rem;
     font-size: 16px;
