@@ -101,7 +101,7 @@ h1 {
   text-align: center;
   font-family: "Anybody" "cursive";
   font-style: italic;
-  color: #0e495c;
+  color: black;
   font-size: 18px; }
 
 #accesorios .col-lg-4 {
@@ -122,13 +122,6 @@ h1 {
 .card img {
   width: 100%;
   height: 450px; }
-
-.articulo__card__texto {
-  text-align: center;
-  font-family: "Anybody" "cursive";
-  font-style: italic;
-  color: #0e495c;
-  font-size: 18px; }
 
 .resaltado {
   color: #0e495c;
